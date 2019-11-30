@@ -18,7 +18,7 @@ public class AnswerFilter implements LogicFilter {
             "我是bugstack虫洞栈的作者：付政委，如果您有什么需求，欢迎留言。\n" +
             "\n" +
             "获取专题案例源码，请按需回复以下数字编号1、2、3...获取对应开源代码：\n" +
-            "0、资源下载，NetAssist网络调试助手等" +
+            "0、资源下载，NetAssist网络调试助手等\n" +
             "1、netty案例，全套37章节+案例源码[基础篇(12)、拓展篇(13)、应用篇(3+)、源码篇(6)]\n" +
             "2、rpc案例，手敲代码将最核心源码最简化方式展示RPC原理\n" +
             "3、用Java实现jvm源码，通过Java代码实现JVM让Java程序员更加熟知；解析class文件、字节码命令、运行时数据区等\n" +
