@@ -17,16 +17,16 @@ public class AnswerFilter implements LogicFilter {
             "\n" +
             "我是bugstack虫洞栈的作者：付政委，如果您有什么需求，欢迎留言。\n" +
             "\n" +
-            "获取专题案例源码，请按需回复以下数字编号1、2、3...获取对应开源代码：\n" +
+            "获取专题案例源码，请按需回复以下数字编号1、2、3...：\n" +
             "0、资源下载，NetAssist网络调试助手等\n" +
-            "1、netty案例，全套37章节+案例源码[基础篇(12)、拓展篇(13)、应用篇(3+)、源码篇(6)]\n" +
-            "2、rpc案例，手敲代码将最核心源码最简化方式展示RPC原理\n" +
-            "3、用Java实现jvm源码，通过Java代码实现JVM让Java程序员更加熟知；解析class文件、字节码命令、运行时数据区等\n" +
-            "4、基于JavaAgent的全链路监控案例，在分布式系统中全链路监控是必不可少的，他能让系统运行不再是盲人陌路\n" +
-            "5、iot-gateway案例源码，netty在万物物联中是必不可少\n" +
-            "6、DDD落地，学习并实战是奔入应用级开发最快的方法，只有事必躬亲才不被理论左右\n" +
-            "7、SpringCloud专题，用最干净清晰的代码学习整体知识，简单易学易用\n" +
-            "8、itstack-ark-wx，基于DDD的一次公众号开发实战，以打通博客于公众号用户为核心服务\n";
+            "1、netty案例\n" +
+            "2、rpc案例\n" +
+            "3、用Java实现jvm源码\n" +
+            "4、基于JavaAgent的全链路监控案例\n" +
+            "5、iot-gateway案例源码\n" +
+            "6、DDD落地\n" +
+            "7、SpringCloud专题\n" +
+            "8、itstack-ark-wx，微信公众号开发\n";
 
     @Override
     public String filter(BehaviorMatter request) {

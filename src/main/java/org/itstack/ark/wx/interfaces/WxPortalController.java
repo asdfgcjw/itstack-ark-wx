@@ -79,7 +79,7 @@ public class WxPortalController {
             behaviorMatter.setOpenId(openid);
             behaviorMatter.setFromUserName(message.getFromUserName());
             behaviorMatter.setMsgType(message.getMsgType());
-            behaviorMatter.setContent(message.getContent());
+            behaviorMatter.setContent(message.getContent().trim());
             behaviorMatter.setEvent(message.getEvent());
             behaviorMatter.setCreateTime(new Date(Long.parseLong(message.getCreateTime()) * 1000L));
             // 处理消息
